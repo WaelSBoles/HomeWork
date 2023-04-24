@@ -6,9 +6,11 @@ public class Task02 {
            print the character in the middle of the String.For Example String str=hello =>l
      */
     public static void main(String[] args) {
-         String sentence = "I love Java";
-         if (!sentence.isEmpty()&& sentence.length()%2!=0&& sentence.length()>=3);{
-            System.out.println(sentence.charAt(5));
+         String str = "hello";
+         if (!str.isEmpty()&& str.length()%2!=0&& str.length()>=3);{
+            int middle=str.length()/2;
+            char middleChar=str.charAt(middle);
+            System.out.println(middleChar);
         }
     }
 
